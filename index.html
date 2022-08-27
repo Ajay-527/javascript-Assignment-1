@@ -6,6 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Temperature Conversion</title>
   </head>
-  <script type="text/javascript" src="leap-year.js"></script>
-  <body></body>
+  <script type="text/javascript" src="temperature.js"></script>
+  <body>
+    <h1>Temperature Conversion</h1>
+    <div>
+      <label>Celsius</label>
+      <input type="text" onchange="toFahrenheit(this.value)" />
+        &nbsp;To&nbsp;
+      <label>Fahrenheit</label>
+      <output id="fahrenheitValue">
+    </div>
+    <div>
+      <label>Fahrenheit</label>
+      <input type="text"  onchange="toCelsius(this.value)" />
+        &nbsp;To&nbsp;
+      <label>Celsius</label>
+      <output id="celsiusValue">
+    </div>
+    
+  </body>
 </html>
